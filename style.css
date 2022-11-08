@@ -1,3 +1,32 @@
+body {
+    margin: 0;
+    /* margin-top: -50px; */
+    height: 1400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(chaps2.png);
+    background-size: cover;
+    background-position: center;
+}
+header {
+    height: 100px;
+    /* background-color: rgba(0,0,0,0.4); */
+}
+
+.split {
+    height: 500px;
+}
+
+.logo {
+    /* margin-top: -50px; */
+    height: 300px;
+    width: 80%;
+    margin-left: 130px;
+    background-image: url("btlogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
 nav {
     margin: auto;
     max-width: 900px;
@@ -9,15 +38,6 @@ nav {
 a {
     text-decoration: none;
     color: brown;
-}
-
-.hero {
-    height: 1000px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-image: url(chaps2.png);
-    background-size: cover;
-    background-position: center;
 }
 
 #about-us {
