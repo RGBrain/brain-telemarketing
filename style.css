@@ -1,8 +1,23 @@
 body {
     margin: 0;
-    /* margin-top: -50px; */
+    background-color: rgb(209, 207, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+/* .pad {
+    width: 100%;
+    display: block;
+    height: 20px;
+    border: solid blue;
+} */
+
+.chaps {
+    margin: auto;
     height: 1400px;
     width: 100%;
+    max-width: 1500px;
+    flex-shrink: 1;
     background-repeat: no-repeat;
     background-image: url(chaps2.png);
     background-size: cover;
@@ -14,7 +29,7 @@ header {
 }
 
 .split {
-    height: 500px;
+    height: 800px;
 }
 
 .logo {
@@ -43,4 +58,7 @@ a {
 #about-us {
     max-width: 900px;
     margin: auto;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5%;
+    border: solid 5px white;
 }
